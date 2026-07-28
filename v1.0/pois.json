@@ -8,7 +8,7 @@
         {
             "event_id": "EV001",
             "event_name": "YKK APアリーナ",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP001", "spot_name": "YKK APアリーナ", "latitude": 36.7085, "longitude": 137.2140, "address": "富山県富山市" },
             "description": "わんぱく相撲全国大会などが開かれる、まちめぐりの起点となる大型アリーナ。",
@@ -17,7 +17,7 @@
         {
             "event_id": "EV002",
             "event_name": "親水広場",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP002", "spot_name": "親水広場", "latitude": 36.7028, "longitude": 137.2108, "address": "富山県富山市" },
             "description": "スポーツ教室や音楽ライブなど、多彩なプログラムが集う水辺の広場。",
@@ -26,7 +26,7 @@
         {
             "event_id": "EV003",
             "event_name": "富山駅北口広場",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP003", "spot_name": "富山駅北口広場", "latitude": 36.7022, "longitude": 137.2135, "address": "富山県富山市明輪町" },
             "description": "キッズイベントでにぎわう、富山駅の玄関口。まちめぐりの出発点に。",
@@ -35,7 +35,7 @@
         {
             "event_id": "EV004",
             "event_name": "富山県民会館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP004", "spot_name": "富山県民会館", "latitude": 36.6959, "longitude": 137.2124, "address": "富山県富山市新総曲輪4-18" },
             "description": "おわら節全国大会など、富山の文化を発信するホール。城址公園に隣接。",
@@ -44,7 +44,7 @@
         {
             "event_id": "EV005",
             "event_name": "グランドプラザ",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP005", "spot_name": "グランドプラザ", "latitude": 36.6906, "longitude": 137.2138, "address": "富山県富山市総曲輪3-8" },
             "description": "全天候型のガラス屋根に覆われた、まちの大きなリビング。企業対抗綱引き大会も。",
@@ -53,7 +53,7 @@
         {
             "event_id": "EV006",
             "event_name": "富山国際会議場",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP006", "spot_name": "富山国際会議場", "latitude": 36.6926, "longitude": 137.2100, "address": "富山県富山市大手町1-2" },
             "description": "演奏とドリルの祭典などが催される、大手町のコンベンション施設。",
@@ -62,7 +62,7 @@
         {
             "event_id": "EV007",
             "event_name": "富山城址公園",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP007", "spot_name": "富山城址公園", "latitude": 36.6936, "longitude": 137.2117, "address": "富山県富山市本丸1-62" },
             "description": "よさこい祭りや星空バザールの舞台。堀と石垣が水面に映える、まちの中心。",
@@ -71,7 +71,7 @@
         {
             "event_id": "EV008",
             "event_name": "城址大通り",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP008", "spot_name": "城址大通り（富山市役所前）", "latitude": 36.6955, "longitude": 137.2133, "address": "富山県富山市" },
             "description": "はたらくクルマや伝統芸披露でにぎわう、市役所前のメインストリート。",
@@ -80,7 +80,7 @@
         {
             "event_id": "EV009",
             "event_name": "富山市役所 光の広場",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP009", "spot_name": "富山市役所 光の広場", "latitude": 36.6969, "longitude": 137.2133, "address": "富山県富山市新桜町7-38" },
             "description": "市役所内のイベントスペース。展望塔とあわせて立ち寄りたい。",
@@ -89,7 +89,7 @@
         {
             "event_id": "EV010",
             "event_name": "北電噴水テラス",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0001", "category_name": "イベント会場", "color_code": "#E8B84B" },
             "spot": { "spot_id": "SP010", "spot_name": "北電噴水テラス", "latitude": 36.6992, "longitude": 137.2124, "address": "富山県富山市" },
             "description": "防災イベントなどが開かれる、水と憩いのオープンテラス。",
@@ -99,7 +99,7 @@
         {
             "event_id": "EV011",
             "event_name": "ボルファートとやま",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP011", "spot_name": "ボルファートとやま", "latitude": 36.6982, "longitude": 137.2088, "address": "富山県富山市奥田新町8-1" },
             "description": "まちなかの集会・宿泊施設。展望レストランからの眺めも魅力。",
@@ -108,7 +108,7 @@
         {
             "event_id": "EV012",
             "event_name": "高志会館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP012", "spot_name": "高志会館", "latitude": 36.6976, "longitude": 137.2106, "address": "富山県富山市新総曲輪" },
             "description": "会議や催しに使われる、県民に親しまれる公共施設。",
@@ -117,7 +117,7 @@
         {
             "event_id": "EV013",
             "event_name": "CiC",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP013", "spot_name": "CiC", "latitude": 36.7006, "longitude": 137.2144, "address": "富山県富山市新富町1-2-3" },
             "description": "富山駅前の複合ビル。ショップや情報発信の拠点が集まる。",
@@ -126,7 +126,7 @@
         {
             "event_id": "EV014",
             "event_name": "富岩運河環水公園",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP014", "spot_name": "富岩運河環水公園", "latitude": 36.7047, "longitude": 137.2093, "address": "富山県富山市湊入船町" },
             "description": "運河を中心にデザインされた、水と光の公園。天門橋と遊覧船が名物。",
@@ -135,7 +135,7 @@
         {
             "event_id": "EV015",
             "event_name": "牛島公園",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP015", "spot_name": "牛島公園", "latitude": 36.7052, "longitude": 137.2168, "address": "富山県富山市牛島町" },
             "description": "駅北エリアの緑地。散策やひと休みにちょうどよい憩いの場。",
@@ -144,7 +144,7 @@
         {
             "event_id": "EV016",
             "event_name": "松川公園",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP016", "spot_name": "松川公園", "latitude": 36.6960, "longitude": 137.2150, "address": "富山県富山市本丸" },
             "description": "桜並木で知られる松川沿いの公園。遊覧船でまちを水上からめぐれる。",
@@ -153,7 +153,7 @@
         {
             "event_id": "EV017",
             "event_name": "県庁前公園",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP017", "spot_name": "県庁前公園", "latitude": 36.6963, "longitude": 137.2114, "address": "富山県富山市新総曲輪" },
             "description": "銀杏並木が美しい、県庁前の落ち着いた都市公園。",
@@ -162,7 +162,7 @@
         {
             "event_id": "EV018",
             "event_name": "富山県美術館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP018", "spot_name": "富山県美術館", "latitude": 36.7017, "longitude": 137.2087, "address": "富山県富山市木場町3-20" },
             "description": "アートとデザインをつなぐ美術館。屋上から立山連峰と運河を望む。",
@@ -171,7 +171,7 @@
         {
             "event_id": "EV019",
             "event_name": "富山市ガラス美術館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP019", "spot_name": "富山市ガラス美術館（TOYAMAキラリ）", "latitude": 36.6899, "longitude": 137.2131, "address": "富山県富山市西町5-1" },
             "description": "隈研吾設計、光を織り込む「TOYAMAキラリ」。ガラスの街・富山の象徴。",
@@ -180,7 +180,7 @@
         {
             "event_id": "EV020",
             "event_name": "佐藤記念美術館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP020", "spot_name": "佐藤記念美術館", "latitude": 36.6934, "longitude": 137.2122, "address": "富山県富山市本丸1-33" },
             "description": "城址公園内にたたずむ、茶道具や東洋美術のコレクション。",
@@ -189,7 +189,7 @@
         {
             "event_id": "EV021",
             "event_name": "富山市郷土博物館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP021", "spot_name": "富山市郷土博物館（富山城）", "latitude": 36.6934, "longitude": 137.2120, "address": "富山県富山市本丸1-62" },
             "description": "富山城の歴史を伝える博物館。最上階から城下町を一望できる。",
@@ -198,7 +198,7 @@
         {
             "event_id": "EV022",
             "event_name": "高志の国文学館",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP022", "spot_name": "高志の国文学館", "latitude": 36.6979, "longitude": 137.2258, "address": "富山県富山市舟橋南町2-22" },
             "description": "富山ゆかりの文学・文化を紹介する、庭園の美しい文学館。",
@@ -207,7 +207,7 @@
         {
             "event_id": "EV023",
             "event_name": "オーバード・ホール",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0002", "category_name": "既存施設・インフラ", "color_code": "#56C0D6" },
             "spot": { "spot_id": "SP023", "spot_name": "オーバード・ホール", "latitude": 36.7009, "longitude": 137.2158, "address": "富山県富山市牛島町9-28" },
             "description": "駅近の本格的な音楽・舞台ホール。まちの文化拠点のひとつ。",
@@ -217,7 +217,7 @@
         {
             "event_id": "EV024",
             "event_name": "きときと市場とやマルシェ",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP024", "spot_name": "きときと市場とやマルシェ", "latitude": 36.7010, "longitude": 137.2135, "address": "富山県富山市明輪町1-220" },
             "description": "富山駅直結の市場。白えびやますのすしなど、地の味覚が集まる。",
@@ -226,7 +226,7 @@
         {
             "event_id": "EV025",
             "event_name": "マルート（MAROOT）",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP025", "spot_name": "マルート", "latitude": 36.7028, "longitude": 137.2142, "address": "富山県富山市明輪町1-231" },
             "description": "富山駅北の商業施設。ショッピングやグルメが楽しめる回遊拠点。",
@@ -235,7 +235,7 @@
         {
             "event_id": "EV026",
             "event_name": "マリエとやま",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP026", "spot_name": "マリエとやま", "latitude": 36.7003, "longitude": 137.2122, "address": "富山県富山市桜町1-1-61" },
             "description": "富山駅前のランドマーク的ショッピングビル。買い物や休憩に。",
@@ -244,7 +244,7 @@
         {
             "event_id": "EV027",
             "event_name": "MARIO",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP027", "spot_name": "MARIO", "latitude": 36.6892, "longitude": 137.2158, "address": "富山県富山市中心市街地" },
             "description": "音楽フェスの余韻を楽しめる、まちなかのライブスポット。",
@@ -253,7 +253,7 @@
         {
             "event_id": "EV028",
             "event_name": "ソウルパワー",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP028", "spot_name": "ソウルパワー", "latitude": 36.6897, "longitude": 137.2148, "address": "富山県富山市中心市街地" },
             "description": "交流とライブを楽しめる、夜のまちめぐりにおすすめの一軒。",
@@ -262,7 +262,7 @@
         {
             "event_id": "EV029",
             "event_name": "富山市役所展望塔",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP029", "spot_name": "富山市役所展望塔", "latitude": 36.6969, "longitude": 137.2136, "address": "富山県富山市新桜町7-38" },
             "description": "地上70mから立山連峰とまちを見晴らす無料展望塔。夜景も美しい。",
@@ -271,7 +271,7 @@
         {
             "event_id": "EV030",
             "event_name": "AMAZING TOYAMA",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP030", "spot_name": "AMAZING TOYAMA", "latitude": 36.7014, "longitude": 137.2137, "address": "富山県富山市明輪町" },
             "description": "富山駅前のフォトスポット。まちめぐりの記念撮影にぴったり。",
@@ -280,7 +280,7 @@
         {
             "event_id": "EV031",
             "event_name": "池田屋安兵衛商店",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP031", "spot_name": "池田屋安兵衛商店", "latitude": 36.6889, "longitude": 137.2170, "address": "富山県富山市堤町通り1-3-5" },
             "description": "「くすりのまち富山」を伝える老舗。丸薬づくりの体験ができる。",
@@ -289,7 +289,7 @@
         {
             "event_id": "EV032",
             "event_name": "SOGAWA BASE",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP032", "spot_name": "SOGAWA BASE", "latitude": 36.6901, "longitude": 137.2141, "address": "富山県富山市総曲輪3" },
             "description": "総曲輪の屋台横丁。食と交流でまちの夜がにぎわう。",
@@ -298,7 +298,7 @@
         {
             "event_id": "EV033",
             "event_name": "日枝神社",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP033", "spot_name": "日枝神社", "latitude": 36.6870, "longitude": 137.2122, "address": "富山県富山市山王町4-12" },
             "description": "「山王さん」と親しまれる富山総鎮守。まちの歴史が息づく社。",
@@ -307,7 +307,7 @@
         {
             "event_id": "EV034",
             "event_name": "あまよっと横丁",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP034", "spot_name": "あまよっと横丁", "latitude": 36.7029, "longitude": 137.2140, "address": "富山県富山市明輪町1-231 マルート内" },
             "description": "駅北の食の横丁。富山の幸を気軽に味わえる人気スポット。",
@@ -316,7 +316,7 @@
         {
             "event_id": "EV035",
             "event_name": "タワー111",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP035", "spot_name": "タワー111（アートギャラリー）", "latitude": 36.7042, "longitude": 137.2102, "address": "富山県富山市牛島新町5-5" },
             "description": "駅北のランドマークタワー。アートギャラリーも併設する。",
@@ -325,7 +325,7 @@
         {
             "event_id": "EV036",
             "event_name": "富山電気ビルディング",
-            "thumbnail_url": "",
+            "thumbnail_url": "https://www.pref.toyama.jp/images/25058/toya_1.jpg",
             "category": { "category_id": "TY0003", "category_name": "おすすめスポット", "color_code": "#2E74B5" },
             "spot": { "spot_id": "SP036", "spot_name": "富山電気ビルディング（富山電気ビルレストラン）", "latitude": 36.6976, "longitude": 137.2141, "address": "富山県富山市桜橋通り3-1" },
             "description": "昭和初期の風格ある近代建築。老舗レストランで食事も楽しめる。",
