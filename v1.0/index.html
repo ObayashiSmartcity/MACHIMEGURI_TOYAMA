@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOYAMA DISCOVERY MAP</title>
+
+<link rel="stylesheet" href="https://unpkg.t.css
+
+<style>
+:root{
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --text:#1e293b;
+  --sub:#64748b;
+  --line:#e2e8f0;
+  --primary:#0f766e;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:
+    "Noto Sans JP",
+    sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+header{
+  position:relative;
+  min-height:70vh;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  overflow:hidden;
+}
+
+header::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(
+      rgba(0,0,0,.35),
+      rgba(0,0,0,.45)
+    ),
+    url("https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1800&q=80")
+    center/cover;
+}
+
+.hero{
+  position:relative;
+  z-index:1;
+  max-width:900px;
+  padding:40px;
+}
+
+.hero h1{
+  font-size:clamp(36px,6vw,72px);
+  margin-bottom:16px;
+  letter-spacing:.08em;
+}
+
+.hero p{
+  font-size:18px;
+  line-height:1.8;
+}
+
+.hero-btn{
+  margin-top:28px;
+  display:inline-block;
+  background:white;
+  color:var(--primary);
+  padding:14px 26px;
+  border-radius:999px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.section{
+  max-width:1400px;
+  margin:auto;
+  padding:80px 24px;
+}
+
+.section-title{
+  font-size:32px;
+  margin-bottom:12px;
+}
+
+.section-sub{
+  color:var(--sub);
+  margin-bottom:36px;
+}
+
+#categoryList{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-bottom:40px;
+}
+
+.category-chip{
+  border:none;
+  padding:10px 18px;
+  border-radius:999px;
+  color:white;
+  cursor:pointer;
+  font-weight:700;
+}
+
+.spot-grid{
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fill,minmax(330px,1fr));
+  gap:24px;
+}
+
+.spot-card{
+  background:var(--card);
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 5px 25px rgba(0,0,0,.08);
+}
+
+.spot-card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.spot-content{
+  padding:20px;
+}
+
+.spot-category{
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:999px;
+  color:white;
+  font-size:12px;
+  margin-bottom:12px;
+}
+
+.spot-title{
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+.spot-desc{
+  color:var(--sub);
+  line-height:1.8;
+  margin-bottom:16px;
+}
+
+.spot-actions{
+  display:flex;
+  gap:10px;
+}
+
+.spot-actions a{
+  flex:1;
+  text-align:center;
+  padding:12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.detail-btn{
+  background:var(--primary);
+  color:white;
+}
+
+.map-btn{
+  background:#eef6f5;
+  color:var(--primary);
+}
+
+#map{
+  height:650px;
+  border-radius:24px;
+  overflow:hidden;
+}
+
+footer{
+  text-align:center;
+  padding:50px 20px;
+  color:var(--sub);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+  <div class="hero">
+
+    <h1>TOYAMA DISCOVERY</h1>
+
+    <p>
+      富山の自然、食、文化、アート、
+      そして地元の魅力を巡るデジタルガイドマップ
+    </p>
+
+    " class="hero-btn">
+      スポットを見る
+    </a>
+
+  </div>
+
+</header>
+
+
+<section class="section">
+
+  <h2 class="section-title">
+    カテゴリから探す
+  </h2>
+
+  <p class="section-sub">
+    興味のあるテーマからスポットを絞り込み
+  </p>
+
+  <div id="categoryList"></div>
+
+</section>
+
+
+<section id="spots" class="section">
+
+  <h2 class="section-title">
+    おすすめスポット
+  </h2>
+
+  <p class="section-sub">
+    富山の魅力を体験できるスポットをご紹介
+  </p>
+
+  <div class="spot-grid" id="spotGrid"></div>
+
+</section>
+
+
+<section class="section">
+
+  <h2 class="section-title">
+    エリアマップ
+  </h2>
+
+  <p class="section-sub">
+    地図からスポットを探す
+  </p>
+
+  <div id="map"></div>
+
+</section>
+
+
+<footer>
+
+  TOYAMA DISCOVERY MAP
+
+</footer>
+
+1.9.4/dist/leaflet.js"></script>
+
+<script>
+
+fetch("pois.json")
+.then(r=>r.json())
+.then(data=>{
+
+  const categories=data.categories||[];
+  const pois=data.pois||[];
+
+  const categoryList=document.getElementById("categoryList");
+  const spotGrid=document.getElementById("spotGrid");
+
+  let activeCategory=null;
+
+  categories.forEach(cat=>{
+
+    const btn=document.createElement("button");
+
+    btn.className="category-chip";
+    btn.textContent=cat.category_name;
+    btn.style.background=cat.color_code;
+
+    btn.onclick=()=>{
+      activeCategory=
+      activeCategory===cat.category_id
+      ? null
+      : cat.category_id;
+
+      renderCards();
+    };
+
+    categoryList.appendChild(btn);
+
+  });
+
+  function renderCards(){
+
+    spotGrid.innerHTML="";
+
+    pois
+    .filter(p=>{
+
+      if(!activeCategory) return true;
+
+      return p.category.category_id===activeCategory;
+
+    })
+    .forEach(poi=>{
+
+      const card=document.createElement("article");
+
+      card.className="spot-card";
+
+      card.innerHTML=`
+
+      <img
+      src="${poi.thumbnail_url}"
+      alt="${poi
+
+        <span
+        class="spot-category"
+        style="background:${poi.category.color_code}">
+        ${poi.category.category_name}
+        </span>
+
+        <h3 class="spot-title">
+          ${poi.event_name}
+        </h3>
+
+        <div class="spot-desc">
+          ${poi.description.substring(0,120)}...
+        </div>
+
+        <div class="spot-actions">
+
+          ${poi.detail_url}
+          詳細を見る
+          </a>
+
+          <a
+          class="map-btn"
+          target="_blank"
+          href="https://maps.google.com/?q=${poi.spot.latitude},${rid.appendChild(card);
+
+    });
+
+  }
+
+  renderCards();
+
+  const map=L.map("map").setView(
+    [36.695,137.213],
+    9
+  );
+
+  L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  ).addTo(map);
+
+  pois.forEach(poi=>{
+
+    if(!poi.spot) return;
+
+    L.marker([
+      poi.spot.latitude,
+      poi.spot.longitude
+    ])
+    .addTo(map)
+    .bindPopup(`
+      <strong>${poi.event_name}</strong>
+      <br>
+      ${poi.category.category_name}
+    `);
+
+  });
+
+});
+</script>
+
+</body>
+</html>
