@@ -87,6 +87,8 @@ header.solid{
   box-shadow:0 6px 24px rgba(11,79,122,.06);
 }
 .nav{display:flex;align-items:center;justify-content:space-between;}
+/* header / footer span full width so logo hugs left edge and menu hugs right edge */
+header>.wrap,footer>.wrap{max-width:none;}
 .logo{display:flex;align-items:center;gap:12px;color:var(--primary);}
 .logo .glyph{width:34px;height:34px;flex-shrink:0;}
 .logo .txt{line-height:1;}
@@ -135,6 +137,9 @@ section{position:relative;z-index:2;}
 }
 .sec-title .light{font-weight:200;color:var(--secondary);}
 .sec-desc{font-size:15px;font-weight:300;color:var(--ink-soft);line-height:2.1;}
+/* STAMP RALLY eyebrow matched to the REWARDS ".mini" style */
+.stamp-sec .sec-num{font-size:11px;letter-spacing:.28em;gap:0;margin-bottom:20px;text-transform:uppercase;}
+.stamp-sec .sec-num::before{display:none;}
 .map-badge{
   display:inline-flex;align-items:center;gap:10px;
   font-family:var(--sans);font-size:11px;letter-spacing:.22em;font-weight:600;
@@ -361,7 +366,7 @@ footer{border-top:1px solid var(--line);padding:44px 0;position:relative;z-index
 <section class="stamp-sec" id="stamp">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="sec-num">STAMP RALLY</span>
+      <span class="sec-num">Stamp Rally / スタンプラリー</span>
       <h2 class="sec-title">めぐって 投稿して <span class="light">特典を当てよう</span></h2>
       <p class="sec-desc">「みんまちDROP」を使ったデジタルスタンプラリー特別企画。スタンプ5個＋1投稿で、豪華特典の抽選に応募できます。</p>
     </div>
