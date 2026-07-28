@@ -110,6 +110,15 @@ header.solid{
 }
 .menu a:hover{color:var(--primary);}
 .menu a:hover::after{width:100%;}
+/* DROP link styled as a pill button */
+.menu a.nav-drop{
+  color:#fff;background:var(--btn-grad);
+  padding:9px 18px;border-radius:100px;letter-spacing:.1em;
+  box-shadow:0 8px 20px rgba(11,79,122,.22);
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.menu a.nav-drop::after{display:none;}
+.menu a.nav-drop:hover{color:#fff;transform:translateY(-2px);box-shadow:0 12px 26px rgba(11,79,122,.30);}
 .burger{display:none;background:none;border:0;cursor:pointer;padding:6px;margin-left:6px;}
 .burger span{display:block;width:24px;height:1.6px;background:var(--primary);margin:6px 0;transition:.3s;}
 /* ---------------- Section base ---------------- */
@@ -307,11 +316,6 @@ footer{border-top:1px solid var(--line);padding:44px 0;position:relative;z-index
 <header id="header">
   <div class="wrap nav">
     <a href="#top" class="logo">
-      <svg class="glyph" viewBox="0 0 40 40" fill="none">
-        <path d="M4 30 C10 18 16 22 20 14 C24 22 30 18 36 30" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-        <path d="M4 35 L36 35" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".5"/>
-        <circle cx="20" cy="9" r="2.4" fill="currentColor"/>
-      </svg>
       <span class="txt">
         <b>MACHIMEGURI&nbsp;Week</b>
         <span>TOYAMA</span>
@@ -320,6 +324,7 @@ footer{border-top:1px solid var(--line);padding:44px 0;position:relative;z-index
     <nav class="menu" id="menu">
       <a href="#map">地図</a>
       <a href="#stamp">スタンプラリー概要</a>
+      <a href="https://drop.machiapps.com/collab/" target="_blank" rel="noopener" class="nav-drop">みんまちDROP</a>
     </nav>
     <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
   </div>
@@ -392,8 +397,8 @@ footer{border-top:1px solid var(--line);padding:44px 0;position:relative;z-index
         <div class="ext-cta">
           <div class="brand">みんまちDROP ｜ 専用WEBアプリ</div>
           <p>スタンプの取得・投稿・特典応募は、<br>専用WEBアプリ「みんまちDROP」で行います。</p>
-          <a href="https://machimeguri-toyama.com/" target="_blank" rel="noopener" class="btn">
-            みんまちDROPをひらく
+          <a href="https://drop.machiapps.com/collab/" target="_blank" rel="noopener" class="btn">
+            マップへ移動
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="12" x2="19" y2="12"/><polyline points="13,6 19,12 13,18"/></svg>
           </a>
           <span class="ext-note">※ 応募期間 2026.9/14 〜 10/4 / 別サイトへ移動します</span>
